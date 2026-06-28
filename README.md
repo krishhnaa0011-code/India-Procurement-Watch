@@ -2,6 +2,61 @@
 
 India Procurement Watch is a robust analytical dashboard designed for exploring public procurement data in India. It processes massive SQLite database exports from government e-procurement portals into a structured, lightweight local dashboard. It allows journalists, researchers, and citizens to analyze public spending, track anomalies, and cross-reference global leaks without requiring direct database queries.
 
+
+#Sentinel Edition Update (June 2026)
+This project has been updated to the Sentinel Edition architecture, focusing on enhanced diagnostic capabilities, offline robustness, and a refined investigative UI.
+
+#Key Enhancements:
+*Architectural Stability: Refined core logic within analysis.js, network.js, and main.js to ensure seamless state management and error resolution.
+
+*Offline-Friendly Design: Integrated state persistence, allowing the dashboard to function reliably during network fluctuations.
+
+*UI/UX Overhaul: Adopted the Sentinel design language, utilizing high-contrast styling in style.css and a restructured layout in index.html.
+
+*Advanced Data Processing: Upgraded chart.js and search.js for dynamic data filtering and real-time visualization of procurement patterns.
+Fully Functional Live Gemini AI Assistant: Powered by the real gemini-3-flash-preview engine, ready to answer any custom forensic data query live.
+
+*Interactive SQL Hacker Terminal: A real sandboxed SQL prompt that accepts typed commands (or clickable presets) and dynamically filters our mock procurement databases in memory.
+
+*"Spot the Corruption" Mini-Game: A gamified forensic auditing challenge with interactive cases, structural red-flag puzzles, scoring systems, and progressive investigator ranking.
+
+*Interactive Network Graph Customizer: Dynamic form controls that let you physically inject new suspect nodes and establish custom relationship strings on the live Vis.js network map.
+
+*Procedural Cybernetic Audio Feedback: Real-time synthesis of radar-like search sweep pings, select chimes, double-click drills, and low-frequency alert buzzers on error matches.
+
+*Robust Multi-Hop Offline Simulation Hub: Full fallback registry search and multi-node neighborhood graph rendering (featuring cross-linked directors, shared registration emails, and physical location overlays) if your backend Python/Flask API goes offline.
+
+*Immersive Vis.js Configuration: Symmetrically colored nodes matching the cybernetic theme (emerald green for corporate entities, cyan for state buyers, warning red for shared-domain leaks) with continuous smooth layouts.
+
+
+*Interactive Synthesizer Soundscapes: Automatically triggers high-tech audit feedback chirps and notification tones during search execution and empty results using our global playSynthBeep synthesizer.
+
+*Dynamic In-Memory Fallback Matching: If the backend API endpoint (/api/search) is offline, it automatically performs a robust, multi-parameter search across the client-side database records. This guarantees full functionality in local or self-contained preview modes.
+
+*Robust Schema Standardisation: Aligns column lookups consistently (mapping org, org_name, and organisation_name appropriately) to prevent schema crashes
+
+
+*Procedural Retro Soundscapes: Integrated audio feedback on view transitions, tab selection, modal lookups, search actions, and click operations.
+
+*Robust Offline Simulation Gateway: Full fallback simulation coverage. If your local Python/Flask server goes offline, the dashboard gracefully generates realistic mock datasets for state KPIs, repeat winners, general anomalies, and diagnostic report cards to keep your preview fully functional.
+
+*Smooth Animated Counters: Includes high-fidelity countdown transitions and animated state card increments
+
+*Radar Sector Matrix Configuration: Completely optimized the Sector Matrix to render as a custom, balanced Radar chart. By configuring the radial scale to use circular grid alignments, hiding default numerical axis value overlays, and reducing point label margins with 'Space Grotesk' typography, the Sector Matrix aligns symmetrically alongside the adjacent bar and pie charts.
+
+*Cyber-Dark Theme Palettes: Configured default color tokens to align with the platform's high-tech diagnostic HUD (neon sky blue, glowing emerald green, warning orange, violet).
+
+*Procedural Interaction Audio: Chart updates and map interactions now trigger procedural clicks via the globally bound Web Audio pinger system (window.playSynthBeep)
+
+*Interactive Client-Side Analysis Simulator (Offline Engine): If your Python backend is offline, clicking the "Analyse Data" button no longer displays generic connection errors! Instead, it initiates a high-fidelity simulated analysis cycle (copying database structures, indexing search folders, auditing anomalies) with soundscapes and progress counters, and ultimately unlocks a mock investigative report.
+
+*Procedural Auditory Cues: Integrated sound synthesis triggers (playSynthBeep) that sound off as analysis starts, ticks up, finishes, or expands critical cards.
+
+*Pristine Narrative findings: Standardised rich markdown-friendly findings (with collapsible summaries, explanation fields, and direct links to the Company Graph explorer).
+
+*No Alerts Principle: Fully decoupled all legacy alert() statements, routing all notification payloads directly into the interactive Sentinel notification toaster.
+
+
 ## Key Features
 
 *   **Machine Learning Risk Engine:** Uses `scikit-learn` Isolation Forests to flag highly anomalous contractors based on multi-dimensional behavioral data.

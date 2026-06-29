@@ -24,11 +24,6 @@ Fully Functional Live Gemini AI Assistant: Powered by the real gemini-3-flash-pr
 
 * **Architectural Stability**: Refined core logic within analysis.js, network.js, and main.js to ensure seamless state management and error resolution.
 
-* **Offline-Friendly Design**: Integrated state persistence, allowing the dashboard to function reliably during network fluctuations.
-
-* **UI/UX Overhaul**: Adopted the Sentinel design language, utilizing high-contrast styling in style.css and a restructured layout in index.html.
-
-* **Advanced Data Processing**: Upgraded chart.js and search.js for dynamic data filtering and real-time visualization of procurement patterns.
 
 ## Key Features
 
